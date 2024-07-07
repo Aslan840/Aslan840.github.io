@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <addons>
 
-<addon id="plugin.video.smotrim.ru" version="1.3.8" name="Smotrim.ru" provider-name="Shaim">
+<addon id="plugin.video.filmix" version="1.4.4" name="Filmix" provider-name="vl.maksime">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
