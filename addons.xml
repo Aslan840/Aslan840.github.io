@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addons>
+
+<addon id="plugin.video.smotrim.ru" version="1.3.8" name="Smotrim.ru" provider-name="Shaim">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+        <license>MIT License</license>
+    </extension>
+    <extension point="xbmc.service" library="download_torrent_info.py" start="login" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ru">LRuTor2</summary>
+        <description lang="ru">Плагин для сайта RuTor 2</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+</addons>
