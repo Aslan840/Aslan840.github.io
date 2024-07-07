@@ -4,15 +4,3 @@
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://u.to/lOpYHA",Россия 1
-#EXTGRP:Федеральные
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"1ac9f83d7fa1484f8489dc136f168841":"31854d9262f250fc0c265b5858052d3f"}
-https://s25617.cdn.ngenix.net/mdrm/CH_1TVHD_OTT/manifest.mpd
-
-
-#EXTINF:-1 tvg-logo="https://u.to/lOpYHA",123
-#EXTGRP:Федеральные
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
