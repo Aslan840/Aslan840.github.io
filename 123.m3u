@@ -1,3 +1,5 @@
+#EXTM3U url-logo="http://path/to/icons/root/"
+
 #EXTINF:-1 tvg-logo="https://u.to/lOpYHA",Первый канал
 #EXTGRP:Федеральные
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
