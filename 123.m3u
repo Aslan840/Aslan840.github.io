@@ -5,4 +5,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://u.to/lOpYHA",Россия 1
+#EXTGRP:Федеральные
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
