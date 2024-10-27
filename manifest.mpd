@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" type="dynamic" profiles="urn:mpeg:dash:profile:isoff-live:2011" availabilityStartTime="1970-01-01T00:00:00Z" minimumUpdatePeriod="PT6.00S" minBufferTime="PT2S" timeShiftBufferDepth="PT259200S" maxSegmentDuration="PT6.0S">
+  <BaseURL>https://a1311338255-s25617.cdn.ngenix.net/mdrm/CH_5TV/manifest.mpd</BaseURL><Period id="period" start="PT0S">
+    <AdaptationSet frameRate="25" mimeType="video/mp4" startWithSAP="1" id="1" contentType="video" segmentAlignment="true">
+      <SegmentTemplate timescale="90000" media="$RepresentationID$-o0im$Time$.m4s?p=eyJlbmNfc2NoZW1lIjogIm5vbmUifQ&amp;s=1SaRccjsGKWjS-lRKV5Llg">
+        <SegmentTimeline>
+          <S d="540000" t="155703453014970"/>
+          <S d="540000" r="8"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation width="800" height="450" codecs="avc1.64001e" id="video_800x450_avc1/video-v1" bandwidth="2038135" winkId="video_800x450_avc1"/>
+      <Representation width="640" height="360" codecs="avc1.64001e" id="video_640x360_avc1/video-v1" bandwidth="1527265" winkId="video_640x360_avc1"/>
+      <Representation width="384" height="216" codecs="avc1.64000d" id="video_384x216_avc1/video-v1" bandwidth="607700" winkId="video_384x216_avc1"/>
+    </AdaptationSet>
+    <AdaptationSet audioSamplingRate="48000" mimeType="audio/mp4" startWithSAP="1" id="10" contentType="audio" segmentAlignment="true">
+      <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      <SegmentTemplate timescale="90000" media="$RepresentationID$-o0im$Time$.m4s?p=eyJlbmNfc2NoZW1lIjogIm5vbmUifQ&amp;s=1SaRccjsGKWjS-lRKV5Llg">
+        <SegmentTimeline>
+          <S d="540000" t="155703453014970"/>
+          <S d="540000" r="8"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation codecs="mp4a.40.29" id="video_384x216_avc1/audio" bandwidth="131072"/>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2024-10-27T14:14:04.044486Z"/>
+</MPD>
