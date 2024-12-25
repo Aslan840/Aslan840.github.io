@@ -1,5 +1,5 @@
 <addons>
-	<addon id="script.FTPserver" name="FTPserver" provider-name="SlyGuy" version="1.1.0">
+	<addon id="script.FTPserver" name="FTPserver" provider-name="Shaim_84" version="1.1.0">
 		<requires>
 		<import addon="xbmc.python" version=""3.0.0"/>
 		</requires>
