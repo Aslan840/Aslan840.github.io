@@ -1,9 +1,9 @@
 <addons>
 	<addon id="script.FTPserver" name="FTPserver" provider-name="SlyGuy" version="1.1.0">
 		<requires>
-		<import addon="script.FTPserver" version="1.1.0"/>
+		<import addon="xbmc.python" version=""3.0.0"/>
 		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py" provides="audio">
+		<extension point="xbmc.python.pluginsource" library="addon.py" provides="audio">
 		<provides>audio</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
