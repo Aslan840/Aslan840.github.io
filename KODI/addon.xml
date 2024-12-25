@@ -1,7 +1,7 @@
 <addons>
-	<addon id="plugin.audio.au.radio" name="123" provider-name="SlyGuy" version="0.14.1">
+	<addon id="script.FTPserver" name="FTPserver" provider-name="SlyGuy" version="1.1.0">
 		<requires>
-		<import addon="script.module.slyguy" version="0.84.0"/>
+		<import addon="script.FTPserver" version="1.1.0"/>
 		</requires>
 		<extension point="xbmc.python.pluginsource" library="default.py" provides="audio">
 		<provides>audio</provides>
