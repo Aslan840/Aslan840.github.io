@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.FTPserver" name="FTP server" version="1.1.0" provider-name="Shaim_84">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="ru_ru">FTP Сервер</summary>
+
+		<description lang="ru_ru">FTP-сервер (файловый сервер) использующийся для передачи данных по протоколу FTP. С помощью него сервер обрабатывает запросы клиентов, определяет их права, разрешая скачивать или загружать файлы. Клиент же может управлять передачей данных, отправляя специальные команды.</description>
+
+		<news>- Set the delay value when the video is playing[CR]- The audio delay setting does not reset the subtitle delay value</news>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=366574</forum>
+		<source>https://github.com/MAR-official</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
