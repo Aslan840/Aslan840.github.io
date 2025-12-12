@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.1tv-latest-news" name="1tv Channel" version="2.1.0" provider-name="Dmitry Sandalov">
+    <addon id="game.controller.defender" name="Defender Gamepad" version="1.0.0" provider-name="Shaim_84">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>gameaddons</provides>
+            <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">1tv Video Archive</summary>
@@ -39,6 +39,7 @@
         </extension>
     </addon>
 </addons>
+
 
 
 
