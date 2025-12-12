@@ -4,10 +4,8 @@
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
-        <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
+    <extension point="kodi.game.controller" library="resources/layout.xml"/>
+    <extension point="xbmc.addon.metadata">
             <summary lang="en">1tv Video Archive</summary>
             <description lang="en">Plays media from 1tv (Russia)</description>
             <disclaimer lang="en"></disclaimer>
@@ -32,10 +30,10 @@
         	<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.31.0"/>
         </requires>
-        <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
+        <extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080p" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
             <summary lang="en">1tv Video Archive</summary>
             <description lang="en">Plays media from 1tv (Russia)</description>
             <disclaimer lang="en"></disclaimer>
@@ -53,6 +51,7 @@
         </extension>
     </addon>
 </addons>
+
 
 
 
