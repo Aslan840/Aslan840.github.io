@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="game.controller.defender" name="Defender Gamepad" version="1.0.1" provider-name="Team Kodi">
+    <addon id="game.controller.defender" name="Defender Gamepad" version="1.0.1" provider-name="Shaim_84">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -9,15 +9,10 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">Defender Gamepad</summary>
-            <description lang="en">Plays media from 1tv (Russia)</description>
+            <description lang="en">Геймпад проводной Defender Подключение(USB)</description>
             <disclaimer lang="en"></disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GPL v2.0</license>
-            <forum>http://xbmc.ru/forum/showthread.php?t=4715</forum>
-            <website>https://github.com/Aslan840/Aslan840.github.io/tree/main/repository</website>
-            <email>dmitry@sandalov.org</email>
-            <source>https://github.com/Aslan840/Aslan840.github.io/tree/main/repository</source>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -26,6 +21,7 @@
     </addon>
 
 </addons>
+
 
 
 
