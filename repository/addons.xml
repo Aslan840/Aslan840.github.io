@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.1tv-latest-news" name="11111" version="2.1.0" provider-name="Dmitry Sandalov">
+    <addon id="plugin.video.1111" name="11111" version="2.1.0" provider-name="Dmitry Sandalov">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -15,9 +15,9 @@
             <platform>all</platform>
             <license>GNU GPL v2.0</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=4715</forum>
-            <website>https://github.com/DmitrySandalov/xbmc-repo</website>
+            <website>https://github.com/Aslan840/Aslan840.github.io/tree/main/repository</website>
             <email>dmitry@sandalov.org</email>
-            <source>https://github.com/DmitrySandalov/xbmc-repo</source>
+            <source>https://github.com/Aslan840/Aslan840.github.io/tree/main/repository</source>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
@@ -26,3 +26,4 @@
     </addon>
 
 </addons>
+
