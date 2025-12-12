@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.1111" name="11111" version="2.1.0" provider-name="Dmitry Sandalov">
+    <addon id="plugin.video.1111" name="11111" version="1.0.1" provider-name="Dmitry Sandalov">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -26,4 +26,5 @@
     </addon>
 
 </addons>
+
 
