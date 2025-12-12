@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="plugin.video.1111" name="11111" version="1.0.1" provider-name="Dmitry Sandalov">
+    <addon id="game.controller.defender" name="Defender Gamepad" version="1.0.0" provider-name="Team Kodi">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
@@ -8,7 +8,7 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en">1tv Video Archive</summary>
+            <summary lang="en">Defender Gamepad</summary>
             <description lang="en">Plays media from 1tv (Russia)</description>
             <disclaimer lang="en"></disclaimer>
             <language>ru</language>
@@ -26,5 +26,6 @@
     </addon>
 
 </addons>
+
 
 
