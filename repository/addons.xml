@@ -5,7 +5,7 @@
             <import addon="xbmc.python" version="3.0.0"/>
         </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
-            <provides>standalonegames</provides>
+            <provides>gameaddons</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">1tv Video Archive</summary>
@@ -39,6 +39,7 @@
         </extension>
     </addon>
 </addons>
+
 
 
 
