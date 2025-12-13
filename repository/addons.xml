@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-    <addon id="repository.myrepository" name="MyRepository" version="1.0.1" provider-name="Shaim_84">
+    <addon id="repository.myrepository" name="MyRepository" version="1.0.2" provider-name="Shaim_84">
         <extension point="xbmc.addon.repository" name="MyRepository">
             <info compressed="false">https://raw.githubusercontent.com/DmitrySandalov/xbmc-repo/master/addons/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/DmitrySandalov/xbmc-repo/master/addons/addons.xml.md5</checksum>
@@ -68,6 +68,7 @@
         </extension>
     </addon>
 </addons>
+
 
 
 
